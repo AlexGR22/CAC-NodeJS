@@ -96,7 +96,6 @@ h4 {
 #autor{
     display: flex;
     flex-direction: column;
-    position: relative;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -106,9 +105,8 @@ h4 {
     padding: 30px;
 }
 
-#autorTitulo {
+.autorTitulo {
     width: 70%;
-    position: absolute;
     align-items: center;
     justify-content: center;
     margin-top: auto;
@@ -118,7 +116,7 @@ h4 {
     display: flex;
 }
 
-#autorFoto img {
+.autorFoto img {
     width: 35%;
     align-items: center;
     justify-content: center;

@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #177E89;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    min-height: 150px;
+}
+
+.nav h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li a {
+    padding: 0 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-right: 3px solid white
+    
+}
+
+.nav li:last-child a {
+    border-right: none;
+    margin-right: 10px;
+    padding: 0 0 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #177E89;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    box-sizing: border-box;
+    min-height: 250px;
+    padding-right: 50px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer li {
+    margin: 0 10px;
+}
+
+.logo-footer {
+    font-size: 20px;
+}
+
+.logo-footer h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.link-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.link-footer ul li {
+    margin-bottom: 20px;
+}
+
+.redes li {
+    margin-right: 50px;
+}
+
+.redes li a svg {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-footer li {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+body .copyright {
+    background-color: #084C61;
+    color: white;
+    padding: 10px;
+    font-size: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
