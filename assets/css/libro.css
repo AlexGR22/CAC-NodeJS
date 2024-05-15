@@ -2,23 +2,11 @@ html {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header {
-    background-color: #177e89;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 main {
     height: 100vh;
 }
 
-footer {
-    background-color: #177e89;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 h2 {
     color: #177e89;
