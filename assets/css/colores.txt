@@ -1,6 +1,0 @@
-Paleta de colores
-
-#177E89 principal claro
-#084C61 principal oscuro
-#DB3A34 rojo
-#FFC857 amarillo
