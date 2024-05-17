@@ -1,0 +1,64 @@
+.contacto{
+    display: grid;
+    grid-template-columns: auto auto ;   
+    margin: 100px 200px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.datos {
+    background-color: #FFC857;
+    margin: 20px;
+    border: 1px;
+    border-radius: 25px;
+    padding: 20px;
+    min-width: 600px;
+}
+
+.mapa iframe{
+    margin: 20px;
+    border-radius: 25px;
+    max-height: 400px;
+}
+
+.formulario {
+    margin: 20px;
+    background-color: #DB3A34;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.formulario form input,textarea{ 
+    margin:20px;
+
+}
+
+.formulario form input[type="submit"]{
+    background-color: #FFC857;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario form input[type="submit"]:hover{
+    background-color: #57a5ffd0
+}
