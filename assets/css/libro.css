@@ -4,7 +4,10 @@ html {
 
 
 main {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f6f6;
 }
 
 
@@ -74,6 +77,8 @@ h4 {
     padding-bottom: 10px;
     background-color: #f8f6f6;
     border-radius: 15px;
+    max-width: 800px;
+
 }
 
 #descripcionParrafo {
@@ -84,8 +89,8 @@ h4 {
 #autor{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #FFC857;
@@ -94,23 +99,25 @@ h4 {
 }
 
 .autorTitulo {
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
+    /* align-items: left; */
+    text-align: left;
+    /* margin-top: auto; */
 }
 
 .autorContenido {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 800px;
 }
-
+.autorFoto{
+    margin: 20px;
+}
 .autorFoto img {
-    width: 35%;
     align-items: center;
     justify-content: center;
-    padding-left: 250px;
+    padding-left: 20px;
+}
+.autorParrafo{
+    padding-left: 20px;
 }
 
-#descripcionParrafo {
-    justify-content: left;
-}

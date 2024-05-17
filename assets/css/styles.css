@@ -153,12 +153,55 @@ a {
     font-size: 20px;
 }
 
-body .copyright {
+footer .copyright p {
     background-color: #084C61;
     color: white;
-    padding: 10px;
-    font-size: 7px;
+    font-size:15px;
+    margin: 0;
     box-sizing: border-box;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-responsive {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .nav {
+        display: none;
+    }
+
+    .nav-responsive {
+        background-color: #177E89;
+        color: white;
+        display: flex;
+        padding:20px
+    }
+    
+    .nav-responsive h1 {
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        font-style: italic;
+    }
+    .logo{
+        margin-right:0px
+    }
+    
+    .nav-responsive ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-responsive li a {
+        padding: 0 20px;
+        font-weight: 500;
+        font-style: italic;
+    }
+
 }
