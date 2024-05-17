@@ -65,9 +65,10 @@ a {
     min-height: 150px;
 }
 
-.nav h1 {
+.nav p {
     margin: 0;
     padding: 0;
+    font-size: 30px;
     font-weight: 900;
     font-style: italic;
 }
@@ -122,9 +123,10 @@ a {
     font-size: 20px;
 }
 
-.logo-footer h1 {
+.logo-footer p {
     margin: 0;
     padding: 0;
+    font-size: 30px;
     font-weight: 900;
     font-style: italic;
 }
