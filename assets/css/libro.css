@@ -1,23 +1,9 @@
-html {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-header {
-    background-color: #177e89;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 main {
-    height: 100vh;
-}
-
-footer {
-    background-color: #177e89;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    background-color: #f8f6f6;
+    font-weight: 400;
 }
 
 h2 {
@@ -30,10 +16,13 @@ h3 {
     color: #060606;
     font-weight: bold;
     font-style: italic;
+    font-size: 1.5rem;
 }
 
 h4 {
-    color: #2d2e2e;
+    color: #DB3A34;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Sección del libro */
@@ -45,7 +34,7 @@ h4 {
     padding-left: 40px;
     text-align: left;
     justify-content: center;
-    background-color: #f8f6f6;
+    margin-top: 20px;
 }
 
 /* Sección Título del libro */
@@ -56,12 +45,10 @@ h4 {
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: #f8f6f6;
 }
 
 /* Sección foto del libro */
 .seccionLibroFoto {
-    background-color: #f8f6f6;
     width: 400px;
     height: auto;
     padding: 30px;
@@ -81,48 +68,52 @@ h4 {
 
 /* Seccion descripción/sinopsis del libro */
 #descripcion{
-    padding-left: 100px;
+    max-width: 900px;
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #f8f6f6;
-    border-radius: 15px;
 }
 
 #descripcionParrafo {
-    width: 70%;
+    width: 90%;
+    margin-top: 10px;
 }
 
 /* Seccion autor del libro */
 #autor{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: #FFC857;
-    border-radius: 15px;
-    padding: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
 }
 
 .autorTitulo {
+    padding-left: 20px;
     width: 70%;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
 }
 
 .autorContenido {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 900px;
+}
+
+.autorFoto {
+    margin: 10px;
 }
 
 .autorFoto img {
-    width: 35%;
     align-items: center;
     justify-content: center;
-    padding-left: 250px;
+    padding-left: 10px;
+    border-radius:10%;
 }
 
-#descripcionParrafo {
-    justify-content: left;
+.autorParrafo {
+    padding-left: 30px;
 }
