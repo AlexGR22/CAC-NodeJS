@@ -40,49 +40,54 @@ h4 {
     text-transform: uppercase;
 }
 
+h5 {
+    color: #060606;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
 /* Sección del libro */
-/* Sección Título del libro */
-.seccionLibroNombre {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: nowrap; 
-    padding-left: 40px;
-    text-align: left;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-/* Sección Título del libro */
-.seccionLibro {
+#seccionLibro {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
 }
 
-/* Sección foto del libro */
+.libroContenido {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 900px;
+}
+
 .seccionLibroFoto {
-    width: 400px;
     height: auto;
-    padding: 30px;
-    border-radius: 10px;
-    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .seccionLibroFoto img {
     width: 80%;
+    border-radius: 10px;
+}
+.seccionLibroFicha {
+    padding-top: 30px;
+    padding-left: 40px;
 }
 
-/* Sección ficha técnica del libro */
-.seccionLibroFicha h2 h5 p {
+.seccionLibroFicha ul li h2 h5 p {
     text-align: left;
     font-size: 20px;
 }
 
 /* Seccion descripción/sinopsis del libro */
-#descripcion{
+#descripcion {
     max-width: 900px;
     padding-left: 20px;
     padding-top: 10px;
@@ -95,7 +100,7 @@ h4 {
 }
 
 /* Seccion autor del libro */
-#autor{
+#autor {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
