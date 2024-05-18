@@ -19,7 +19,9 @@ main {
     align-items: center;
     background-color: #f8f6f6;
     font-weight: 400;
+
 }
+
 
 h2 {
     color: #177e89;
@@ -125,8 +127,8 @@ ul, li {
 
 .autorFoto {
     margin: 10px;
-}
 
+}
 .autorFoto img {
     align-items: center;
     justify-content: center;
