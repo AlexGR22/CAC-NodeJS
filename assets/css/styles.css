@@ -52,6 +52,19 @@ a {
     text-decoration: none;
     color: white;
 }
+.logonav  {
+    width: 10%;
+    align-items: left;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.logofooter  {
+    width: 20%;
+    align-items: left;
+    justify-content: center;
+    padding-left: 10px;
+}
 
 .nav {
     display: flex;
