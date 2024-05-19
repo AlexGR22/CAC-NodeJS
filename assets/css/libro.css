@@ -61,6 +61,15 @@ ul, li {
     padding-top: 15px;
 }
 
+.botonVolver {
+    width: 70px;
+    color: #DB3A34;
+}
+
+.botonVolver:hover {
+    color: #060606;
+}
+
 .libroContenido {
     display: grid;
     grid-template-columns: 40% 60%;
