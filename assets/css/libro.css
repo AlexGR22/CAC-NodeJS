@@ -6,9 +6,7 @@ main {
     align-items: center;
     background-color: #f8f6f6;
     font-weight: 400;
-
 }
-
 
 h2 {
     color: #177e89;
@@ -48,6 +46,15 @@ ul, li {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
+}
+
+.botonVolver {
+    width: 70px;
+    color: #DB3A34;
+}
+
+.botonVolver:hover {
+    color: #060606;
 }
 
 .libroContenido {
