@@ -1,0 +1,135 @@
+/* Logo */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f6f6;
+    font-weight: 400;
+}
+
+h2 {
+    color: #177e89;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    color: #060606;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+h4 {
+    color: #DB3A34;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #060606;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/* Sección del libro */
+#seccionLibro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.botonVolver {
+    width: 70px;
+    color: #DB3A34;
+}
+
+.botonVolver:hover {
+    color: #060606;
+}
+
+.libroContenido {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 900px;
+}
+
+.seccionLibroFoto {
+    height: auto;
+    margin-top: 10px;
+}
+
+.seccionLibroFoto img {
+    width: 80%;
+    border-radius: 10px;
+}
+.seccionLibroFicha {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.seccionLibroFicha ul li h2 h5 p {
+    text-align: left;
+    font-size: 20px;
+}
+
+/* Seccion descripción/sinopsis del libro */
+#descripcion {
+    max-width: 900px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#descripcionParrafo {
+    width: 90%;
+    margin-top: 10px;
+}
+
+/* Seccion autor del libro */
+#autor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #FFC857;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.autorTitulo {
+    padding-left: 20px;
+    width: 70%;
+}
+
+.autorContenido {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 900px;
+}
+
+.autorFoto {
+    margin: 10px;
+
+}
+.autorFoto img {
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius:10%;
+}
+
+.autorParrafo {
+    padding-left: 30px;
+}
