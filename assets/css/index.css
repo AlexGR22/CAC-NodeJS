@@ -1,0 +1,214 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-principal{
+ width: 70%;
+ margin-right: 400px;
+ display: grid;
+ background-color: #177E89;
+ padding: 50px;
+ margin:auto;
+ border: 10px solid white;
+ border-radius: 12px;
+    
+}
+
+.container-destacados{
+    text-align: center;
+    color: rgba(255, 255, 255, 1); 
+    padding-top: 150px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    padding-bottom: 100px;
+}
+
+.container-blogs{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 400px;
+    border-radius: 10px;
+    margin-top: 2px;
+    padding-bottom: 500px;
+}
+
+.contenedor-caja{
+    display: grid; /* Establece el contenedor como un contenedor de cuadrícula */
+    grid-template-rows: 470px 470px;
+    grid-gap: 2em;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    max-height: 10em;
+}
+
+.img-contenedor{
+    height: 25em;
+    padding-top: 40px;
+    margin-right: 10px;
+
+}
+
+.item-1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #084C61;
+    border-radius: 20px;
+    border-style: solid; /* Especifica el estilo del borde, en este caso, es una línea sólida */
+    border-color: #000; /* Color del borde */
+
+}
+
+.button-1{
+    position:relative;
+    left: 2px;
+    top: 8px;
+    padding: 10px 40px; /* Padding interno */
+    background-color: #FFC857; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-width: 2px; /* Establece el grosor del borde */
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #000;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    z-index: 1;
+    
+}
+
+.item-2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #084C61; 
+    border-radius: 20px;
+    border-style: solid; 
+    border-color: #000; 
+
+}
+
+.button-2{
+    position:relative;
+    left: 2px;
+    top: 8px;
+    padding: 10px 40px; 
+    background-color: #FFC857; 
+    color: white; 
+    border-width: 2px; 
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #000; 
+    cursor: pointer; 
+}
+
+.item-3{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #084C61;
+    border-radius: 20px;
+    border-style: solid; 
+    border-color: #000; 
+
+}
+
+.button-3{
+    position:relative;
+    left: 2px;
+    top: 8px;
+    padding: 10px 40px; 
+    background-color: #FFC857; 
+    color: white; 
+    border-width: 2px; 
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000; 
+    cursor: pointer; 
+}
+
+.item-4{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #084C61;
+    border-radius: 20px;
+    border-style: solid; 
+    border-color: #000; 
+}
+
+.button-4{
+    position:relative;
+    left: 2px;
+    top: 410px;
+    padding: 10px 40px;
+    background-color: #FFC857; 
+    color: white; 
+    border-width: 2px; 
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #000; 
+    cursor: pointer; 
+}
+
+.item-5{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #084C61;
+    border-radius: 20px;
+    border-style: solid; 
+    border-color: #000;
+}
+
+.button-5{
+    position:relative;
+    left: 2px;
+    top: 410px;
+    padding: 10px 40px; 
+    background-color: #FFC857; 
+    color: white; 
+    border-width: 2px; 
+    border-radius: 6px;
+    border-style: solid; 
+    border-color: #000; 
+    cursor: pointer; 
+}
+
+.item-6{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #084C61;
+    border-radius: 20px;
+    border-style: solid; 
+    border-color: #000; 
+}
+
+.button-6{
+    position:relative;
+    left: 2px;
+    top: 410px;
+    padding: 10px 40px; 
+    background-color: #FFC857; 
+    color: white; 
+    border-width: 2px; 
+    border-radius: 6px;
+    border-style: solid; 
+    border-color: #000; 
+    cursor: pointer; 
+}
+
+/* Para el botón cuando se pasa el mouse sobre él, incluido para el carrusel*/
+button:hover {
+    background-color: #000; /* Cambia color de fondo */
+}
+
+/* Media Queries */
+/*@media (max-width: 768px) {
+    .contenedor-principal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 360px) {
+    .contenedor-principal {
+        grid-template-columns: 1fr;
+    }
+}
