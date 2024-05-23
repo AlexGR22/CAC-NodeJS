@@ -63,21 +63,21 @@
 
 }
 
-.button-1{
+/*.button-1{
     position:relative;
     left: 2px;
     top: 8px;
     padding: 10px 40px; /* Padding interno */
-    background-color: #FFC857; /* Color de fondo */
-    color: white; /* Color del texto */
-    border-width: 2px; /* Establece el grosor del borde */
-    border-radius: 6px;
+    /*background-color: #FFC857; /* Color de fondo */
+    /*color: white; /* Color del texto */
+    /*border-width: 2px; /* Establece el grosor del borde */
+    /*border-radius: 6px;
     border-style: solid;
     border-color: #000;
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    z-index: 1;
+    /*z-index: 1;
     
-}
+}*/
 
 .item-2{
     grid-row-start: 1;
@@ -89,7 +89,7 @@
 
 }
 
-.button-2{
+/*.button-2{
     position:relative;
     left: 2px;
     top: 8px;
@@ -100,8 +100,8 @@
     border-radius: 6px;
     border-style: solid;
     border-color: #000; 
-    cursor: pointer; 
-}
+    /*cursor: pointer; 
+}*/
 
 .item-3{
     grid-row-start: 1;
@@ -113,7 +113,30 @@
 
 }
 
-.button-3{
+.button-destacados{
+    position:relative;
+    left:auto;
+    top: 350px;
+    padding: 8px 150px; /* Padding interno */
+    background-color: #FFC857; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-width: 2px; /* Establece el grosor del borde */
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #000;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    
+}
+
+.boton-verLibro{
+    position:relative;
+    left: 290px;
+    top: 315px;
+    width: 25%;
+}
+
+
+/*.button-3{
     position:relative;
     left: 2px;
     top: 8px;
@@ -124,8 +147,8 @@
     border-radius: 10px;
     border-style: solid;
     border-color: #000; 
-    cursor: pointer; 
-}
+    /*cursor: pointer; 
+}*/
 
 .item-4{
     grid-row-start: 1;
@@ -136,7 +159,7 @@
     border-color: #000; 
 }
 
-.button-4{
+/*.button-4{
     position:relative;
     left: 2px;
     top: 410px;
@@ -147,8 +170,8 @@
     border-radius: 6px;
     border-style: solid;
     border-color: #000; 
-    cursor: pointer; 
-}
+    /*cursor: pointer; 
+}*/
 
 .item-5{
     grid-row-start: 1;
@@ -159,7 +182,7 @@
     border-color: #000;
 }
 
-.button-5{
+/*.button-5{
     position:relative;
     left: 2px;
     top: 410px;
@@ -170,8 +193,8 @@
     border-radius: 6px;
     border-style: solid; 
     border-color: #000; 
-    cursor: pointer; 
-}
+    /*cursor: pointer; 
+}*/
 
 .item-6{
     grid-row-start: 1;
@@ -182,7 +205,7 @@
     border-color: #000; 
 }
 
-.button-6{
+/*.button-6{
     position:relative;
     left: 2px;
     top: 410px;
@@ -193,8 +216,8 @@
     border-radius: 6px;
     border-style: solid; 
     border-color: #000; 
-    cursor: pointer; 
-}
+    /*cursor: pointer; 
+}*/
 
 /* Para el botón cuando se pasa el mouse sobre él, incluido para el carrusel*/
 button:hover {
