@@ -12,9 +12,8 @@ h1 {
     margin-bottom: 20px;
     background-color: #177E89;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
+    padding-left: 100px;
+
 }
 .book {
     margin: 10px;
@@ -23,33 +22,36 @@ h1 {
 .book img{
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding: 15px;
     border-radius:10%;
+    background-color: #000000;
+
 }
 
-#catalogo .list_catalogo {
+#catalogo {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 20px;
     background-color: #f8f6f6;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
+    padding-left: 200px;
+
 }
 
 .book1 img{
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding: 20px;
     border-radius:10%;
+    background-color: #084c61;
 }
 .book2 img{
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding: 20px;
     border-radius:10%;
+    background-color:#FFC857;
 }
 
 #medio {
@@ -70,9 +72,13 @@ h1 {
     margin-bottom: 20px;
     background-color: #084c61;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
+    padding-left: 100px;
+
+}
+h4 {
+    color: #FFC857;
+    font-weight: bold;
+    font-style: italic;
 }
 #parte2 {
     display: flex;
@@ -81,7 +87,20 @@ h1 {
     margin-bottom: 20px;
     background-color: #084c61;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
+    padding-left: 100px;
+
+}
+.book3 img{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius:10%;
+    background-color: #177E89;
+}
+.book4 img{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius:10%;
+    background-color:#FFC857;
 }
