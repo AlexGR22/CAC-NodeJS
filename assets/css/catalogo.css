@@ -75,6 +75,11 @@ h1 {
     padding-left: 100px;
 
 }
+h4 {
+    color: #FFC857;
+    font-weight: bold;
+    font-style: italic;
+}
 #parte2 {
     display: flex;
     flex-direction: column;
