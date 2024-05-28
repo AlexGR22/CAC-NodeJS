@@ -52,6 +52,7 @@
     border-radius: 20px;
     border-style: solid; /* Especifica el estilo del borde, en este caso, es una línea sólida */
     border-color: #000; /* Color del borde */
+    margin: 20px;
 }
 
 /* .item-2{
@@ -76,7 +77,7 @@
     /* position:relative; */
     /* left:auto; */
     /* top: 350px; */
-    margin: 25px;
+    /* margin: 25px; */
     padding: 8px 150px; /* Padding interno */
     background-color: #FFC857; /* Color de fondo */
     color: white; /* Color del texto */
@@ -143,7 +144,7 @@
 } */
 
 /* Para el botón cuando se pasa el mouse sobre él, incluido para el carrusel*/
-button:hover {
+.button-destacados:hover {
     background-color: #000; /* Cambia color de fondo */
 }
 
